@@ -1,3 +1,34 @@
-h1{
-    color: red;
+body{
+    text-align: center;
+    background-color: rgb(190, 70, 70);
+}
+
+.container{
+    background-color: #ffff;
+    width: 38%;
+    margin-left: 33%;
+    height: 70vh;
+
+}
+
+input{
+    padding: 10px;
+    width: 260px;
+    border: 2px solid green;
+    outline: none;
+}
+
+button{
+    background-color: #0f823f;
+    height: 40px;
+    color: #ffff;
+    border-radius: 2px;
+    width: 50px;
+    border: none;
+    
+}
+
+button:hover{
+    background-color: #008000;
+    
 }
