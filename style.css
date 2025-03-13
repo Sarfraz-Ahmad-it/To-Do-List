@@ -1,34 +1,42 @@
 body{
     text-align: center;
-    background-color: rgb(190, 70, 70);
+    background-color: #212327;
 }
-
 .container{
     background-color: #ffff;
-    width: 38%;
+    width: 360px;
+    padding: 35px;
     margin-left: 33%;
-    height: 70vh;
-
 }
-
 input{
     padding: 10px;
-    width: 260px;
+    width: 280px;
     border: 2px solid green;
     outline: none;
 }
-
 button{
     background-color: #0f823f;
     height: 40px;
     color: #ffff;
     border-radius: 2px;
     width: 50px;
-    border: none;
-    
+    border: none;   
+}
+    button:hover{
+    background-color: #008000;  
 }
 
-button:hover{
-    background-color: #008000;
-    
+.text ul {
+    position: relative;
+    background-color: rgb(44, 69, 69);
+    color: #ffff;
+    font-size: 20px;
+    text-align: left;
+    padding: 8px;
+}
+
+.text ul i{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
 }
